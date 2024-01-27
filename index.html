@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Your React App</title>
+</head>
+<body>
+    <div id="root"></div>
+
+    <!-- Include React and ReactDOM from CDN (Content Delivery Network) -->
+    <script crossorigin src="https://unpkg.com/react@17/umd/react.development.js"></script>
+    <script crossorigin src="https://unpkg.com/react-dom@17/umd/react-dom.development.js"></script>
+
+    <!-- Your app-specific code -->
+    <script src="src/index.js"></script>
+
+    <!-- If you want your app to work offline and load faster, you can change
+         unregister() to register() below. Note this comes with some pitfalls.
+         Learn more about service workers: https://bit.ly/CRA-PWA -->
+    <script>
+        // Register service worker
+        if ('serviceWorker' in navigator) {
+            navigator.serviceWorker.register('/your/path/to/src/serviceWorker.js').then(function(registration) {
+                console.log('ServiceWorker registration successful:', registration);
+            }).catch(function(error) {
+                console.log('ServiceWorker registration failed:', error);
+            });
+        }
+    </script>
+</body>
+</html>
