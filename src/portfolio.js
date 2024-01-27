@@ -494,9 +494,7 @@ const podcastSection = {
   subtitle: "I LOVE TO TALK ABOUT MYSELF AND TECHNOLOGY",
 
   // Please Provide with Your Podcast embeded Link
-  podcast: [
-    "https://www.youtube.com/channel/UC6UrwtJjV4xPxxZo-ZEpQYA"
-  ],
+  podcast: ["https://www.youtube.com/channel/UC6UrwtJjV4xPxxZo-ZEpQYA"],
   display: true // Set false to hide this section, defaults to true
 };
 
