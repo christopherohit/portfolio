@@ -478,10 +478,10 @@ const talkSection = {
 
   talks: [
     {
-      title: "Build Actions For Google Assistant",
-      subtitle: "Codelab at GDG DevFest Karachi 2019",
-      slides_url: "https://bit.ly/saadpasta-slides",
-      event_url: "https://www.facebook.com/events/2339906106275053/"
+      title: "Credly Badge Workshop",
+      subtitle: "My archivement",
+      slides_url: "https://www.credly.com/earner/earned",
+      event_url: "https://www.credly.com/earner/earned"
     }
   ],
   display: true // Set false to hide this section, defaults to true
@@ -495,7 +495,7 @@ const podcastSection = {
 
   // Please Provide with Your Podcast embeded Link
   podcast: [
-    "https://anchor.fm/codevcast/embed/episodes/DevStory---Saad-Pasta-from-Karachi--Pakistan-e9givv/a-a15itvo"
+    "https://www.youtube.com/channel/UC6UrwtJjV4xPxxZo-ZEpQYA"
   ],
   display: true // Set false to hide this section, defaults to true
 };
@@ -504,8 +504,8 @@ const contactInfo = {
   title: emoji("Contact Me ☎️"),
   subtitle:
     "Discuss a project or just want to say hi? My Inbox is open for all.",
-  number: "+92-0000000000",
-  email_address: "saadpasta70@gmail.com"
+  number: "+84-792361509",
+  email_address: "nhanht.18@grad.uit.edu.vn"
 };
 
 // Twitter Section
