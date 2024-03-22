@@ -213,7 +213,7 @@ const workExperiences = {
       role: "Training Program Development Specialist AI – AI Engineer",
       company: "VTC Academy",
       companylogo: require("./assets/images/download (1).png"),
-      date: "Jun 2023 – Nov 2023",
+      date: "May 2023 - Dec 2023",
       desc: "Teacher, Researcher and Developer",
       descBullets: [
         "AI Implementation",
@@ -228,14 +228,14 @@ const workExperiences = {
       role: "Trainee AI Engineer",
       company: "VinBigData",
       companylogo: require("./assets/images/logo-VinBigData-2020-01.png"),
-      date: "Jan 2023 – Jul 2023",
+      date: "Jul 2022 - May 2023",
       desc: "The Vingroup AI Engineer Training Program is a comprehensive program that covers a wide range of topics related to artificial intelligence and data science.      The program is designed to give participants the knowledge and skills they need to become successful AI engineers."
     },
     {
       role: "Artificial Intelligence Engineer",
       company: "Ezin InsurTech J.S.C",
       companylogo: require("./assets/images/download.jpeg"),
-      date: "Jan 2015 – Sep 2015",
+      date: "Jan 2020 – Feb 2022",
       desc: "Team Leader",
       descBullets: [
         "Manage the company's source code organization",
@@ -265,8 +265,8 @@ const bigProjects = {
   projects: [
     {
       image: require("./assets/images/saayaHealthLogo.webp"),
-      projectName: "Saayahealth",
-      projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      projectName: "PhySical Damage on Car",
+      projectDesc: "",
       footerLink: [
         {
           name: "Visit Website",
@@ -287,7 +287,7 @@ const bigProjects = {
       ]
     }
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 // Achievement Section
@@ -465,7 +465,7 @@ const blogSection = {
         "React is a JavaScript library for building User Interface. It is maintained by Facebook and a community of individual developers and companies."
     }
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 // Talks Sections
@@ -484,7 +484,7 @@ const talkSection = {
       event_url: "https://www.credly.com/earner/earned"
     }
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 // Podcast Section
@@ -495,7 +495,7 @@ const podcastSection = {
 
   // Please Provide with Your Podcast embeded Link
   podcast: ["https://www.youtube.com/channel/UC6UrwtJjV4xPxxZo-ZEpQYA"],
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 const contactInfo = {
